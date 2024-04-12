@@ -1,0 +1,95 @@
+.title {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.forecastContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-left: 30px;
+}
+.daily-item {
+  /* box-shadow: 5px -2px 5px 2px white; */
+  color: black;
+  width: 27vw;
+  border-radius: 15px;
+  border: 2px solid white;
+  height: 10vh;
+  margin: 5px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 19px;
+  padding: 5px 20px;
+  background-color: #000000;
+background-image: linear-gradient(147deg, #2c3e50 0%, #000000 74%);
+}
+
+.icon-small {
+  width: 40px;
+  background-color: #5b6467;
+  background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);  
+  backdrop-filter: blur(30px);
+  border-radius: 25%;
+}
+
+.daily-item .day {
+  cursor: inherit;
+  color: white;
+  flex: 1 1;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.description {
+  cursor: inherit;
+  flex: 1 1;
+  margin-right: 15px;
+  margin-left: 5px;
+  text-align: right;
+  color: honeydew;
+}
+
+.min-max {
+  color: white;
+}
+
+.daily-details-grid {
+  margin: 5px 5px;
+  box-shadow: 5px -2px 5px 2px white;
+  border-radius: 15px;
+  grid-row-gap: 0;
+  grid-column-gap: 15px;
+  -webkit-column-gap: 15px;
+  column-gap: 15px;
+  display: grid;
+  flex: 1 1;
+  grid-template-columns: auto auto;
+  padding: 5px 15px;
+  row-gap: 0;
+  width: 27vw;
+  margin-left: 10px;
+}
+
+.daily-details-grid-item {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+}
+
+.daily-details-grid-item label:first-child {
+  color: white;
+  font-weight: bold;
+}
+
+.daily-details-grid-item label:last-child {
+  color: white;
+}

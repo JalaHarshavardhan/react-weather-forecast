@@ -1,0 +1,28 @@
+.usagepage{
+    min-height: 73vh;
+    color: honeydew;
+    margin: 1vh 10vw 0 10vw;
+    
+}
+.descUsage{
+    text-align: left;
+}
+h3{
+    font-size: 27px;
+}
+
+ol li{
+    font-size: 23px;
+}
+
+ol li p{
+    font-size: 20px;
+}
+
+p, ul{
+    font-size: 20px;
+}
+
+h3{
+    text-decoration: underline;
+}

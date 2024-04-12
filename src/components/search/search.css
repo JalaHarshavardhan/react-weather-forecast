@@ -1,0 +1,61 @@
+.searchBar {
+  margin: 20px auto;
+  width: 70vw;
+  justify-content: center;
+  color: black;
+  border: 5px solid #283949;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+/* search.css */
+
+/* Styles for the container */
+.search-container {
+  margin: 20px;
+}
+
+/* Styles for the heading */
+.search-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the AsyncPaginate component */
+.custom-select {
+  width: 100%;
+}
+
+/* Styles for the input */
+.custom-select .react-select__input {
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Styles for the dropdown menu */
+.custom-select .react-select__menu {
+  font-size: 16px;
+}
+
+/* Styles for the options in the dropdown menu */
+.custom-select .react-select__option {
+  padding: 10px;
+}
+
+/* Styles for the selected option */
+.custom-select .react-select__single-value {
+  font-weight: bold;
+}
+
+#searchCity {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0px;
+  font-style: italic;
+  margin-bottom: 8vh;
+  color: honeydew;
+}
