@@ -51,7 +51,7 @@ function App() {
       <div className="container">
         <Navbar />
         <Switch>
-          <Route path="/" exact>
+          <Route path="/weather">
             <Search onSearchChange={handleOnSearchChange} />
             <div className="weatherMap">
               <div className="weather_">
